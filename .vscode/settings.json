@@ -1,4 +1,9 @@
 {
 	"copyrightInserter.holder": "Pextra Inc.",
 	"copyrightInserter.license": "apache",
+	"gopls": {
+		"build.buildFlags": [
+			"-tags=integration,linux"
+		],
+	}
 }
