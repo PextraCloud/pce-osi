@@ -1,7 +1,7 @@
-# pce-osi
-CLI tool for working with Pextra-specific [OSI images](https://github.com/opencontainers/image-spec/blob/main/spec.md).
+# pce-oci
+CLI tool for working with Pextra-specific [OCI images](https://github.com/opencontainers/image-spec/blob/main/spec.md).
 
-Pextra-specific extensions to the OSI image specification are documented in the [PEXTRA_OSI_EXTENSIONS.md](./PEXTRA_OSI_EXTENSIONS.md) file.
+Pextra-specific extensions to the OCI image specification are documented in the [PEXTRA_OCI_EXTENSIONS.md](./PEXTRA_OCI_EXTENSIONS.md) file.
 
 # Development
 This CLI is written in Go. To build the tool, you need to have [Go installed](https://go.dev/doc/install).

@@ -30,4 +30,4 @@ changelog:
 release:
   github:
     owner: PextraCloud
-    name: pce-osi
+    name: pce-oci

@@ -1,4 +1,4 @@
-# Pextra OSI Extensions
+# Pextra OCI Extensions
 
 ## Overview
 

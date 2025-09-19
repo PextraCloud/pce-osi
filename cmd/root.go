@@ -23,15 +23,15 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "pce-osi",
-	Short: "CLI tool for working with Pextra-specific OSI images.",
-	Long: `pce-osi is a CLI for creating and managing
+	Use:   "pce-oci",
+	Short: "CLI tool for working with Pextra-specific OCI images.",
+	Long: `pce-oci is a CLI for creating and managing
 OCI-compliant images with Pextra-specific extensions.
 It does not interact with registries.
 
-Pextra-specific extensions to the OSI image specification
+Pextra-specific extensions to the OCI image specification
 are documented at:
-https://github.com/PextraCloud/pce-osi/blob/master/PEXTRA_OSI_EXTENSIONS.md.
+https://github.com/PextraCloud/pce-oci/blob/master/PEXTRA_OCI_EXTENSIONS.md.
 
 Copyright (C) 2025 Pextra Inc. This tool is licensed
 under the Apache License, Version 2.0.`,

@@ -25,7 +25,7 @@ import (
 )
 
 func (c *QemuConfig) tempDirWithOriginalFiles() (string, error) {
-	tempDir, err := os.MkdirTemp("", "pce-osi-qemu-flatten-")
+	tempDir, err := os.MkdirTemp("", "pce-oci-qemu-flatten-")
 	if err != nil {
 		return "", fmt.Errorf("failed to create temporary directory: %w", err)
 	}

@@ -34,8 +34,8 @@ func init() {
 
 var extractCmd = &cobra.Command{
 	Use:   "extract [image-path] [output-dir]",
-	Short: "Extract and flatten layers from a Pextra OSI image",
-	Long: `Extracts and flattens layers from a Pextra-specific OSI image into a specified output directory.
+	Short: "Extract and flatten layers from a Pextra OCI image",
+	Long: `Extracts and flattens layers from a Pextra-specific OCI image into a specified output directory.
 The output directory will be created if it does not exist.`,
 	Args: cobra.ExactArgs(2),
 	Run: func(cmd *cobra.Command, args []string) {
